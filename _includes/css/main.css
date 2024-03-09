@@ -484,7 +484,14 @@ footer .footer-below {
     background-color: transparent
 }
 
-
+.portfolio-flex-item img{
+    cursor: -moz-zoom-in; 
+    cursor: -webkit-zoom-in; 
+    cursor: zoom-in;
+}
+.portfolio-flex-item img:hover{
+    opacity:.7;
+}
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
 .modal.fade.in {
